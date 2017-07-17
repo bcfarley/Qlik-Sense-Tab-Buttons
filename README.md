@@ -36,4 +36,4 @@ A tab and sub-tab bar to improve navigation between sheets. Sub tab grouping hel
 
 Please feel free to contribute to the project. 
 - Make it responsive. The extension is not currently designed to fit a mobile screen. 
-- Option to show Sub Tabs as drop down menus rather than 
+- Option to show Sub Tabs as drop down menus rather than a separate row.
