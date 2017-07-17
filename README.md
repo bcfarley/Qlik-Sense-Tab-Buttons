@@ -23,6 +23,8 @@ A tab and sub-tab bar to improve navigation between sheets. Sub tab grouping hel
         * 1 = Inactive (greyed out but visible)
         * 2 = Disabled (Hidden)
 
+![](Image2.png)
+
 ## Suggested Improvements
 
 Please feel free to contribute to the project. 
