@@ -11,17 +11,17 @@ A tab and sub-tab bar to improve navigation between sheets. Sub tab grouping hel
 
 # Configuration
 - The extension is called "Tab Buttons". It needs at least 1 row height (under standard grid sizing) and wide enough for the tab buttons to show
-- Title is optional
-- Top Tab Colour Selected defaults to the colour shown on "Group A"
-- Top Tab Colour Selected defaults to the colour shown on "Group B"
-- Add a Sheet
- - Label is the sub tab label
- - Group is the top tab label
- - Sheet ID includes a dropdown to select the sheet. If a new sheet is added, the browser should be refreshed
- - Status can be set by and expression
-  - 0 = Active
-  - 1 = Inactive (greyed out but visible)
-  - 2 = Disabled (Hidden)
+* Title is optional
+* Top Tab Colour Selected defaults to the colour shown on "Group A"
+* Top Tab Colour Selected defaults to the colour shown on "Group B"
+* Add a Sheet
+    * Label is the sub tab label
+    * Group is the top tab label
+    * Sheet ID includes a dropdown to select the sheet. If a new sheet is added, the browser should be refreshed
+    * Status can be set by and expression
+        * 0 = Active
+        * 1 = Inactive (greyed out but visible)
+        * 2 = Disabled (Hidden)
 
 ## Suggested Improvements
 
