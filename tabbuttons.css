@@ -1,0 +1,88 @@
+/* ------------- Buttons ------------ */
+.qv-object-buttongroupdiv {
+	display: flex; 
+    margin-bottom: 5px;
+}
+.qv-object-buttonrightdiv {
+	flex-grow: 0;
+	border-radius: 4px 4px 0 0;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+	font-family: 'QlikView Sans', sans-serif;
+	background-color: white;
+	color: #555555;
+    border: 1px solid white;
+	border-bottom-color: #DDDDDD;	
+}
+
+/* ------------- Main Tab ------------ */
+.qv-object-button-maintab {
+	flex-grow: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    border: 1px;
+	border-radius: 4px;
+    margin: 0px 3px 0px 3px;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	font-weight: bold;
+	font-family: 'QlikView Sans', sans-serif;
+	cursor: pointer;	
+}	
+.qv-object-button-maintab-selected {
+	color: white;
+}
+.qv-object-button-maintab-disabled {
+	background-color: #999999;	
+	color: white;
+}
+.qv-object-button-maintab-notselected {
+	color: white;
+}
+.qv-object-button-maintab-notselected:hover {
+	background-color: #0083B3;
+}
+
+/* ------------- Sub Tab ------------ */
+.qv-object-button-subtab {
+	flex-grow: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 4px 4px 0 0;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+	font-family: 'QlikView Sans', sans-serif;
+	cursor: pointer;
+}	
+.qv-object-button-subtab-selected {
+	background-color: white;	
+	color: #000000;
+    border: 1px solid #DDDDDD;
+	border-bottom-color: transparent;
+}
+.qv-object-button-subtab-disabled {
+	background-color: #EEEEEE;
+	color: #AAAAAA;
+    border: 1px solid white;
+	border-bottom-color: #DDDDDD;
+}
+.qv-object-button-subtab-notselected {
+	background-color: white;
+	color: #555555;
+    border: 1px solid white;
+	border-bottom-color: #DDDDDD;
+}
+.qv-object-button-subtab-notselected:hover {
+	background-color: #E0E0E0;
+}
