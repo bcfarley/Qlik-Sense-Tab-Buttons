@@ -4,7 +4,7 @@ Tab Button Navigation Extension for Qlik Sense
 A tab and sub-tab bar to improve navigation between sheets. Sub tab grouping helps organise sheets when there are a lot of them. 
 
 ![](Image1.png)
-#Example (above):
+## Example (above):
 * Sheet 1 is Group A and Active
 * Sheet 2 is Group A and Active
 * Sheet 3 is Group B and Active
@@ -12,11 +12,11 @@ A tab and sub-tab bar to improve navigation between sheets. Sub tab grouping hel
 * Sheet 5 is Group B and Disabled
 * Sheet 6 is Group B and Active
 
-# Installation
+## Installation
 - Copy all the files to "Qlik\Sense\Extensions\Tab Buttons"
 - Refresh Qlik Sense browser
 
-# Configuration
+## Configuration
 - The extension is called "Tab Buttons". It needs at least 1 row height (under standard grid sizing) and wide enough for the tab buttons to show
 * Title is optional
 * Top Tab Colour Selected defaults to the colour shown on "Group A"
